@@ -1,0 +1,18 @@
+API定义：
+应用程序接口（Applicaition processer interface）
+别人写好的代码以类封装，其他开发者可以自由调用（此为开源）
+
+object类：所有类的父类都是object类、所有类都继承Object类。
+
+instanceof 判断一个对象是不是另一个类的类型，类型相当于类名。左边是对象，右边是类
+
+hashCode()是对象的省份证号
+
+equals判断两个对象是否相等：
+
+重写Tostring方法的好处
+可以自定义对象的字符串表示，这是object类提供的方法
+
+string类
+string是一个不可以改变的字符串，他是JDK1.0版本提供。所有字符串被final修饰之后不能改变
+
